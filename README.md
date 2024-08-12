@@ -1,5 +1,5 @@
 # **Tokimon World**
-**Tokimon World** is a Spring Boot application that allows users to interact with RESTful APIs through a user-friendly interface implemented with JavaFX. The application supports various operations, including retrieving Tokimon data (GET), creating new Tokimon entries (POST), updating existing Tokimon details (PUT), and deleting Tokimon records (DELETE).
+**Tokimon World** is a Spring Boot application that allows users to interact with RESTful APIs through a user-friendly interface implemented with JavaFX. The application supports various operations, including retrieving Tokimon data (GET), creating new Tokimon entries (POST), updating existing Tokimon details (PUT), and deleting Tokimon records (DELETE). In addition, the application includes integration tests to ensure the proper functionality of its RESTful APIs. These tests verify that the API endpoints interact correctly with the underlying components and that the system performs as expected across various scenarios.
 
 ## How to Run the Application
 To run the application, follow these steps:
