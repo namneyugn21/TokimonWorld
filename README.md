@@ -1,16 +1,29 @@
 # **Tokimon World**
-Tokimon World is a small Spring application that allow user to interect with the REST APis through the friendly user interface implemented with JavaFX. 
+**Tokimon World** is a Spring Boot application that allows users to interact with RESTful APIs through a user-friendly interface implemented with JavaFX. The application supports various operations, including retrieving Tokimon data (GET), creating new Tokimon entries (POST), updating existing Tokimon details (PUT), and deleting Tokimon records (DELETE).
 
-## How to run the application 
-You can run the application by first run the Spring application located in `springboot-tokimons`. Then, go to9 `javafx-tokimons` to run the launcher, which will open the user interface that let you interact with the backend. <br><br>
-**Important:** since this is a small application, the data is saved in a JSON file in `springboot-tokimons/src/main/resources/static/data/tokimoncards.json`, you need to copy this pathfile on your computer and go to `TokimonCollection.java` and change the file path of the JSON file. 
+## How to Run the Application
+To run the application, follow these steps:
 
-## Preview 
-### Home Page 
+1. **Start the Backend**:
+   - Navigate to the `springboot-tokimons` directory.
+   - Run the Spring Boot application to start the backend server.
+
+2. **Launch the User Interface**:
+   - Navigate to the `javafx-tokimons` directory.
+   - Run the launcher to open the JavaFX-based user interface, allowing you to interact with the backend.
+
+**Important:**  
+Since this is a small application, data is stored in a JSON file located at `springboot-tokimons/src/main/resources/static/data/tokimoncards.json`. You will need to update the file path in `TokimonCollection.java` to match the location on your computer.
+
+## Preview
+### Home Page
 ![Home Page](<javafx-tokimons/src/main/resources/ca/cmpt213/asn5/tokimonworld/tokimons/javafxtokimons/documentation/homepage.png>)
-### View a Tokimon 
+
+### View a Tokimon
 ![View](<javafx-tokimons/src/main/resources/ca/cmpt213/asn5/tokimonworld/tokimons/javafxtokimons/documentation/view.png>)
+
 ### Add a Tokimon
 ![Add](<javafx-tokimons/src/main/resources/ca/cmpt213/asn5/tokimonworld/tokimons/javafxtokimons/documentation/add.png>)
+
 ### Edit a Tokimon
 ![Edit](<javafx-tokimons/src/main/resources/ca/cmpt213/asn5/tokimonworld/tokimons/javafxtokimons/documentation/edit.png>)
