@@ -1,0 +1,108 @@
+.main-layout {
+    -fx-alignment: top_center;
+}
+
+.collection-title {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+    -fx-font-size: 35pt;
+    -fx-padding: 50px 50px 25px 50px;
+    -fx-text-alignment: center;
+    -fx-text-fill: #f9fcff;
+}
+
+.collection-display {
+    -fx-alignment: center;
+    -fx-vgap: 25px;
+    -fx-hgap: 50px;
+    -fx-padding: 0px 50px 25px 50px;
+}
+
+.tokimon-card {
+    -fx-font-family: Monaco;
+    -fx-padding: 10px;
+    -fx-pref-width: 250px;
+    -fx-pref-height: 250px;
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-spacing: 20px;
+}
+
+.tokimon-card-label {
+    -fx-text-fill: black;
+}
+
+.tokimon-card-pop-up {
+    -fx-font-family: Monaco;
+    -fx-padding: 20px;
+    -fx-pref-width: 250px;
+    -fx-pref-height: 300px;
+    -fx-spacing: 20px;
+}
+
+.tokimon-button-container {
+    -fx-spacing: 20px;
+    -fx-padding: 5px;
+}
+
+.tokimon-add-button {
+    -fx-font-family: Monaco;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+    -fx-background-color: white;
+    -fx-pref-width: 150px;
+}
+.tokimon-button {
+    -fx-font-family: Monaco;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+    -fx-background-color: white;
+}
+.search-field {
+    -fx-font-family: Monaco;
+    -fx-border-color: black;
+    -fx-border-width: 1px 0px 1px 1px;
+    -fx-padding: 5px;
+    -fx-background-color: white;
+    -fx-pref-width: 250px;
+}
+.tokimon-button:hover,
+.tokimon-add-button:hover {
+    -fx-background-color: #f5f5f5;
+}
+.tokimon-button:pressed,
+.tokimon-add-button:pressed {
+    -fx-background-color: #ebebeb;
+}
+
+.tokimon-form-container {
+    -fx-alignment: center;
+    -fx-padding: 20px;
+    -fx-spacing: 15px;
+    -fx-font-family: Monaco;
+}
+
+.deletion-prompt {
+    -fx-font-family: Monaco;
+    -fx-pref-width: 200px;
+    -fx-wrap-text: true;
+    -fx-text-alignment: center;
+    -fx-line-spacing: 5px;
+}
+
+.collection-scroll-pane {
+    -fx-border-width: 0;
+    -fx-border-color: transparent;
+    -fx-padding: 50px 0px 50px 0px;
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+.collection-scroll-pane .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.error-box {
+    -fx-font-family: Monaco;
+    -fx-padding: 20px;
+}
